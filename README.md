@@ -3,6 +3,8 @@ Animation of qubit states and gates on Bloch sphere.
 
 The animation is based on the Bloch sphere plots provided by QuTiP.
 
+![bloch_example.png](doc/bloch_example.png?raw=true "Example")
+
 ## Installation
 ### Special requirements 
 * [QuTiP](https://qutip.org) >= 4.6
