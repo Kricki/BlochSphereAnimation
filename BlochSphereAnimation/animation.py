@@ -193,16 +193,3 @@ class BlochSphereAnimation:
         if self.animation_parameters.save_first_last_image:
             self._bloch.save('bloch_anim_last.png')
         imageio.mimsave(self.animation_parameters.filename, images, duration=self.animation_parameters.duration)
-
-        ## ToDo
-        # * Add constant vector.
-        # * How to do separate constant vector for each sequence?
-        # * Add title for each sequence
-        # * Color reset after each sequence, or one map for whole animation (as currently)?
-
-        # Tests:
-        # * Annotations
-
-
-
-
